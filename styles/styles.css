@@ -1,0 +1,98 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(29, 31, 29, 0.986);
+}
+
+.container-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 420px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, button, input, h1, p, a {
+    font-family: 'Play', sans-serif;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.create-account-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.password-reset {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 206px;
+    height: 32px;
+    cursor: pointer;
+    border: 4px;
+    border-radius: 4px;
+    background-color: #F90;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input {
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 2px;
+}
+
+input:focus {
+    border: 1px solid #0088a9;
+    box-shadow: 0 0 3px #0088a9;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(255,153,0,0.8);
+}
+
+a:hover {
+    color: #0088a9;
+}
